@@ -1,0 +1,43 @@
+{
+  "room": "Music Life",
+  "author": "FiFo69",
+  "icon": "http://i.imgur.com/30GVxlz.png",
+  "css": "",
+  "rules": {
+    "allowAutorespond": false,
+    "allowAutowoot": true,
+    "allowAutojoin": true,
+    "allowAutograb": true,
+    "allowSmartVote": true,
+    "allowEmotes": true,
+    "allowShowingMehs": false,
+    "forceSmartVote": false
+},
+  "ccc": {
+    "admin": "#FF0105",
+    "ambassador": "#00FF00",
+    "host": "#FF4D4D",
+    "cohost": "#FF4D4D",
+    "manager": "#0000FF",
+    "bouncer": "#81b1ff",
+    "rdj": "#80FF00",
+    "subscriber": null,
+    "friend": "#cd7f32",
+    "user": null
+  },
+  "images": {
+    "background": "",
+    "playback": "http://i.imgur.com/AKROfB3.png",
+    "admin": "",
+    "ambassador": "",
+    "host": "http://i.imgur.com/6xbt264.png",
+    "cohost": "http://i.imgur.com/6xbt264.png",
+    "manager": "http://i.imgur.com/flajdBd.png",
+    "bouncer": "http://i.imgur.com/x3ZunFJ.png",
+    "rdj": "http://i.imgur.com/N1WEtpR.png",
+    "subscriber": null,
+    "other": null
+  },
+  "emotes": {
+  }
+}
