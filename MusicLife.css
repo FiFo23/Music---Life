@@ -1,8 +1,8 @@
 /* CSS By Dark1997 */
 
-@import url("");
-@import url("");
-@import url("");
+@import url("https://rawgit.com/FiFo23/Music---Life/master/MusicLifeBadges.css");
+@import url("https://rawgit.com/FiFo23/Music---Life/master/MusicLifeChat.css");
+@import url("https://rawgit.com/FiFo23/Music---Life/master/MusicLifeInfo.css");
 }
 #room-settings .general-settings .description .value {
  overflow-x: hidden;
