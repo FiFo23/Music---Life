@@ -2,7 +2,7 @@
   "room": "Music Life",
   "author": "FiFo69",
   "icon": "http://i.imgur.com/30GVxlz.png",
-  "css": "",
+  "css": "https://rawgit.com/FiFo23/Music---Life/master/MusicLife.css",
   "rules": {
     "allowAutorespond": false,
     "allowAutowoot": true,
