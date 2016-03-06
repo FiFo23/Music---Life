@@ -1,0 +1,165 @@
+#chat .mention.is-staff {
+}
+#chat .welcome {               
+background: linear-gradient(135deg, #00B4B4 0,#0a0a0a 13%,#0a0a0a 100%);
+  border: 3px solid #00FFFF;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  font-weight: bold !important;
+}  
+#vote {
+	opacity: 0.90;
+}
+#woot { 
+	border-radius: 100px 0 0 100px ;
+}
+#woot .bottom { 
+	border-radius: 0 0 0 100px;
+}
+#woot.selected, #woot .bottom, #woot.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#6FE514,rgba(74, 169, 0, 1) 100%);
+}
+#meh { 
+	border-radius: 0 100px 100px 0;
+}
+#meh .bottom { 
+	border-radius: 0 0 100px 0;
+}
+#meh.selected, #meh .bottom, #meh.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#EA2A2A,rgba(189, 0, 0, 1) 100%);
+}
+#grab.selected, #grab .bottom, #grab.crowd-response.disabled.active .bottom {
+	background: linear-gradient(to top,#AA74FE,rgba(102, 28, 217, 1) 100%);
+}
+#dj-button.is-wait, #dj-button.is-leave, #dj-button.is-quit, #dj-button.is-locked, #dj-button.is-full {
+	opacity: 0.85;
+}
+#dj-button, #dj-button.is-leave { 
+	border-radius: 100px 100px 100px 100px;
+	background: linear-gradient(to top,#3A3A3A,rgba(34, 34, 34, 1) 100%);
+}
+#dj-button .left {
+	border-radius: 100px 100px 100px 100px;
+	background: linear-gradient(to top,#00B4B4,rgba(0, 180, 180, 1) 100%);
+}
+#dj-button.is-leave .left {
+	background: linear-gradient(to top,#00B4B4,rgba(0, 180, 180, 1) 100%);
+}
+
+/*  Host */
+#user-panel:not(.is-none) .user > .icon-chat-host + .name,#user-lists .user > .icon-chat-host + .name,.message.from-host > .from,.emote.from-host > .from,.mention.from-host > .from {
+    color: #FF4D4D !important;
+}
+
+.icon-chat-host,.message.from-host > .icon,.emote.from-host > .icon,.mention.from-host > .icon {
+    background-image: url("http://i.imgur.com/6xbt264.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-host ~ .text > .name,.icon-chat-host ~ .from,.icon-chat-host ~ span {
+    color: #FF4D4D!important;
+    
+}
+/* Host end*/
+
+/*  Co-host */
+#chat-messages:not(.is-none) .user > .icon-chat-cohost + .name,#user-lists .user > .icon-chat-cohost + .name,.message.from-cohost > .from,.emote.from-cohost > .from,.mention.from-cohost > .from {
+   color: #FF4D4D !important;
+    
+}
+
+.icon-chat-cohost,.message.from-cohost > .icon,.emote.from-cohost > .icon,.mention.from-cohost > .icon {
+    background-image: url("http://i.imgur.com/6xbt264.png") !important;
+    background-position: 0 0;
+    
+}
+
+.icon-chat-cohost ~ .text > .name,.icon-chat-cohost ~ .from,.icon-chat-cohost ~ span {
+   color: #FF4D4D !important;
+} 
+/* Co-host end */
+
+/*  Manager */
+.icon-chat-manager ~ .text > .name,.icon-chat-manager ~ .from,.icon-chat-manager ~ span {
+    color: #0000FF !important;
+}
+
+#user-panel:not(.is-none) .user > .icon-chat-manager + .name,#user-lists .user > .icon-chat-manager + .name,.message.from-manager > .from,.emote.from-manager > .from,.mention.from-manager > .from {
+    color: #0000FF !important;
+}
+
+.icon-chat-manager,.message.from-manager > .icon,.emote.from-manager > .icon,.mention.from-manager > .icon {
+    background-image: url("http://i.imgur.com/flajdBd.png") !important;
+    background-position: 0 0;
+}
+/* Manager end*/
+
+/* Bouncer */
+#user-panel:not(.is-none) .user > .icon-chat-bouncer + .name,#user-lists .user > .icon-chat-bouncer + .name,.message.from-bouncer > .from,.emote.from-bouncer > .from,.mention.from-bouncer > .from {
+    color: #81b1ff !important;
+}
+
+.icon-chat-bouncer,.message.from-bouncer > .icon,.emote.from-bouncer > .icon,.mention.from-bouncer > .icon {
+    background-image: url("http://i.imgur.com/x3ZunFJ.png") !important;
+    background-position: 0 0;
+}
+
+.icon-chat-bouncer ~ .text > .name,.icon-chat-bouncer ~ .from,.icon-chat-bouncer ~ span {
+    color: #81b1ff !important;
+}
+/* Bouncer end */
+
+/* RDJ */
+#user-panel:not(.is-none) .user > .icon-chat-dj + .name,#user-lists .user > .icon-chat-dj + .name,.message.from-residentdj > .from,.emote.from-residentdj > .from,.mention.from-residentdj > .from {
+    color: #80FF00 !important;
+}
+
+.icon-chat-dj,.message.from-residentdj > .icon,.emote.from-residentdj > .icon,.mention.from-residentdj > .icon {
+    background-image: url('http://i.imgur.com/N1WEtpR.png') !important;
+    background-position: 0 0;
+}
+
+.icon-chat-dj ~ .text > .name,.icon-chat-dj ~ .from,.icon-chat-dj ~ span {
+    color: #80FF00 !important;
+}
+
+#woot i {
+  background: url('http://i.imgur.com/zRitmBh.png'); 
+}
+
+#meh i {
+  background: url('http://i.imgur.com/TTMTgJV.png');
+}
+
+#grab i {
+  background: url('http://i.imgur.com/66ZC7r7.png');
+}
+
+#vote .crowd-response .top i {
+  position: relative;
+  display: inline-block;
+  margin: 0 -1px 0 -1px;
+  top: 7px;
+  background-repeat: no-repeat;
+}
+
+#vote .crowd-response .top .label {
+  position: relative;
+  display: inline-block;
+  top: -6px;
+  margin-left: -5px;
+}
+
+#chat .mention.is-dj, 
+#chat .mention.is-staff {
+  background: linear-gradient(135deg,#00B4B4 0,#000000 13%,#0a0a0a 100%) !important;
+}
+
+#volume .slider .circle {
+  top: 3px;
+}
+
+.thumb {
+ border: 2px solid #00B4B4;
+ border-radius: 50%;
+}
