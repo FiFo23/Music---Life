@@ -1,0 +1,21 @@
+/* Host & Co-Hosts /*
+/* Fifo69 */
+div[data-cid^="13455051-"] .badge-box i {
+  background: url('http://i.imgur.com/2XCbdq0.jpg') !important;
+  width:32px !important;
+  height:32px !important;
+}
+div[data-cid^="13455051-"]{
+    border: 2px solid #00B4B4;
+    border-right: 0px;
+    background: #641A1A !important;
+    box-shadow: inset 0px 0px 20px #000;
+}
+div[data-cid^="13455051-"] .msg .icon {
+    display:none;
+}
+div[data-cid^="13455051-"] .badge-box {
+    width:32px !important;
+    height:32px !important;
+    margin: 5px !important;
+}
